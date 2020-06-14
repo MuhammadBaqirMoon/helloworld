@@ -26,12 +26,6 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 12
-        
-    # Now install surge using npm pkg manager
-    
-    # First of all Install npm
-    - name: Install npm installer
-      run: apt install npm
     
     # Now install surge  
     - name: Install Surge  
